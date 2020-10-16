@@ -33,6 +33,11 @@ p {
     color: #333;
 }
 header{
+    font-size: 2em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    list-style: none;
+    font-weight: bold;
+    display: inline;
     text-align: center;
     padding: 30px;
 }
