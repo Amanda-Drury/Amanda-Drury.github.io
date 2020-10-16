@@ -40,6 +40,8 @@ header{
     display: inline;
     text-align: center;
     padding: 80px;
+    background-color: #5D6D7E;
+    color: #white;
 }
 footer {
     border-top: 1px solid #d5d5d5;
