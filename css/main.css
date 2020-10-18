@@ -1,28 +1,26 @@
 body {
-    margin: 60px auto;
-    width: 70%;
     background-color: #F8F9F9;
 }
-nav ul {
+nav ul a{
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
     color: #white;
     background-color: #1B4F72;
+    text-decoration: none;
 }
-footer ul {
+footer ul a {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    text-decoration: none;
+    color: #999;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-}
-a {
-    text-decoration: none;
 }
 a:hover {
     text-decoration: underline;
