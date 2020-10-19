@@ -24,6 +24,35 @@
       padding: 25px;
       border-top: 5px solid #D1F2EB;
     }
+    
+    .timeline {
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+     }
+    .timeline::after {
+        content: '';
+        position: absolute;
+        width: 6px;
+        background-color: #ab72c8;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        margin-left: -3px;
+      }
+    .container {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+    .container::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+    
   </style>
 </head>
 <body>
@@ -59,8 +88,8 @@
 <div class="container-fluid bg-3 text-center" style="border-top: 4px double #d872a9; color: #eff2f6;">    
   <h2 style="text-decoration:underline; text-decoration-color: #7dbed9;">Experiences</h2>  <br>
 
-  <div class="timeline" style="position:relative; max-width:1200px; margin: 0 auto; background-color: #ab72c8">
-    <div class="container left">
+  <div class="timeline">
+    <div class="container right">
       <div class="content">
         <h3>experience 1</h3>
         <p>text</p>
